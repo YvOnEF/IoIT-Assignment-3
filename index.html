@@ -221,7 +221,7 @@
                     <p>
                     </p>
                     <br>
-                    <h3 id="aims"> Aims </h3>
+                    <h3 id ="aims"> Aims </h3>
                         <p>
                         Our concept is a smartphone application that functions as a virtual wallet, serving as a central
                         location for all types of virtual cards, QR codes, and virtual tickets. As there are many different 
@@ -256,8 +256,167 @@
                         allow for a greater user experience whilst using our app. 
                         </p>
                         <br>
-                        <h3 id="pandap">plans and Progress</h3>
-                        
+                        <h3 id="pandp">plans and Progress</h3>
+                        <h3> Stage 1: Planning </h3>
+			<p>
+			During the planning stage, we have decided to use two different platforms. Android and iOS are 
+			structured differently from each other, therefore we decided to use two different tech stacks. Choosing
+			our tech stacks for our mobile application is a crucial step for us. A good tech stack will help us reduce
+			time, save cost in development, and open up opportunities for any future projects. We have decided to
+			not use a hybrid stack, even though it will be more cost-efficient, we didn't want to give to give up 
+			functionality and UX. Therefore, we decided to separate our tech stacks, into Android and iOS. 
+
+			In our IOS tech stack, we have chosen Swift as our programming language over Objective-C, as it
+			is the more preferred language over Objective-C. For our iOS development tools, we have chosen 
+			Xcode, an IDE powered by Apple which provides features needed to develop a native iOS app.
+			for our UI framework (for user interface), we have decided on UIkit over SwiftUI, due to the fact 
+			that Swift UI only supports the later versions of iOS, locking out the older versions.
+
+			In our Android tech stack, Kotlin was our choice as the programming language that will be used. 
+			Kotlin was chosen over the ever so popular Java due to it being more simple to use, which can
+			enable projects to be delivered faster. For our Android development tools, we have chosen Android
+			studio, the official development platform powered by Google. For out UI frameworks, Android provides
+			a pre-built Android UI software, however we have chosen Jetpack Compose, due to it allowing a
+			more simplified and accelerated development. 
+
+			Next, we had to estimate the costs for the mobile app development. Depending on app complexity,
+			it can cost between $60,000 to $150,000 on simple app developments and more than $300,000 on 
+			more complex app developments. In Australia, programmers earn about $100 to $120 an hour, while
+			other countries like India have an hourly rate of $30. Since we chose to launch on two platforms and 
+			use two different stacks instead of a higher stack, our costs will be relatively high. Therefore when 
+			choosing our team, we kept the costs in mind, while seeing whether the pros outweigh the cons. 
+			We decided to outsource to a development company overseas. Outsourcing is a good option as 
+			It has many benefits, such as being cost efficient while maintaining high quality. Foreign companies 
+			also adhere to guidelines and ensure that they stay throughout the project, unlike freelancers, and 
+			are much cheaper than putting together a team. 
+
+			Finally, we implemented some milestones and deadlines, to ensure that the app will be developed
+			within the given time. We are targeting the app development to be completed in 3 months from now, 
+			so we can proceed to other stages such as testing, deployment and eventually the marketing of 
+			the app itself.
+			
+			</p>
+			<br>
+		 	<h3>Stage 2: Design and Development</h3>
+			<p>
+			To create a better understanding of our user’s needs, we created a persona, along with a context
+			scenario and key scenarios.
+			Creating a persona:
+			Jonathan Jonas
+			Background:
+			<li>50 years old</li>
+			<li>Lives in Glen Waverley, Victoria</li>
+			<li>Works as a project manager in the city</li>
+			Needs and goals 
+			<li>Always has to take out myki card when taking the train to work, wishes that he could 
+			just use his phone, however he uses an apple phone which does not store myki in it’s
+			wallet unlike google pay on androids</li>
+			Skills and experience
+			<li>Familiar with iOS </li>
+			<li>Limited driving expertise</li>
+			Creating a context scenario:
+			Jonathan is a 50 year old man who works in the city. Jonathan takes the train to the city during the weekdays as he does not own a car. 
+			However, Jonathan is frustrated that he has to search through his wallet for his myki card everyday. He uses an iphone which does not 
+			have a feature to store myki credits, unlike google pay. One day during his lunch break, Jonathan rants to his co-workers about his frustration.
+			Jack the intern suggested to Jonathan to try out the app <insert app name>. He explains to Jonathan that the app is a mobile application that is 
+			essentially a virtual wallet designed to be a unified hub for all forms of virtual cards, QR codes and virtual tickets. He further explains to 
+			Jonathan that this application is designed so that all these cards and scannable codes and items can be stored in one place, as a unified “eWallet”,
+			which can make Jonathan's  life easier and more efficient when dealing with scannable items on their phone. Jonathan sets up his <insert app name>
+			account and puts in his credit card details. When Jonathan leaves work for home, he opens the app and taps his phone at the gate, the transaction 
+			approves, and the gate opens, Jonathan decides that he would no longer need to bring his bulky wallet along with him when he leaves the house.
+
+			During this stage, we focused more on UX design - the visual side of the app. We decided to keep
+			the design of our app minimalistic and simple, as our application’s main purpose is to function as 
+			a wallet.  We chose Dark Blue as our primary color, because it gives users a more modern feeling, 
+			it matched the service we provide by using high end tech to make people’s life more convenient. 
+			We chose orange as the color for most of buttons as it contrast with the dark blue, making all the
+			buttons stand out from the User Interface therefore when the user looks at the page, it is easier for 
+			them to recognize where the buttons are immediately. For the Menu Bar, we used the industry standard
+			Icon “Burger Menu”, so when the users see it, they would immediately know what it used for. And all the 
+			the size of fonts are the same, it makes the user interface more consistant.
+
+			We then planned out the minimum viable product for our application. We made a list of features for
+			our application. Features included:
+			<li>Store QR codes in “My Codes”</li>
+			<li>Add cards such as credit cards and Transport Card (MyKi)</li>
+			<li>Scan and add QR option (take photo from camera or from library)</li>
+			<li>Edit Profile Info</li>
+			<li>Using Credit card to pay</li>
+			<li>Using digital transport card like myki</li>
+			We wanted to deliver a solution that appeals to or ideal customers, so we wanted to focus more on 
+			implementing certain features that enable users to have the true experience of having a virtual unified 
+			wallet.
+                    </p>
+			<br>
+			<h3>Stage 3: Development</h3>
+			<p>
+			The development of the software solution can be split up into two sections. The front end of the application, such as the layout and user 
+			interface of the application. And the back end of the application, such as all the functions that make the application work, usually things
+			that cannot be seen by the user.
+
+			Front end
+
+			The front end of our application needs to be simple and easy to use, so that users can not waste any time accessing what they need. 
+			Our application would be counterintuitive  if it would take multiple keystrokes and user inputs to access a card and other items of relevance.
+			Because of this, as soon as the application is opened the first thing the user should see are the cards they have so they can make a 
+			transaction quickly after opening the app, and also below these cards will be the scannable items such as qr codes and barcodes so that they 
+			also can be accessed quickly on the same page. Other external options not relevant for day to day use should be hidden away for less clutter 
+			through a burger box menu. Such as adding other 
+			</p>
+			<br>
+				
+		<h3>Stage 4: Testing</h3>	
+			<p>
+			The testing process will be conducted through user testing where we invite random people to test our application, the hiring process will be 
+			done through social media and we will provide monetary reward for the test of our application. Not only that, we will also be hiring a quality 
+			assurance team first to provide a more professional and thorough test for the application, this ensures that the test is done to perfection and that they are to discover any bugs that a normal user wouldn’t find in their day to day usage of our application. The quality assurance team will make sure that the application:
+				<li>Is running properly</li>
+				<li>No Lagging</li>
+				<li>No Bugs</li>
+				<li>Is the app easy to use?</li>
+				Bugs in the application means bad UX, leading to the failure of the application, there are two testing phases in app development:
+				<li>Core testing</li> 
+				<li>On demand testing</li> 
+			Testings are the most essential steps of app development, and beta gives you a look at the flaw of the current version of your app. 
+			Therefore the earlier the test the better. The core testing phase essentially is done by professionals to see whether an app is 
+			compatible on mobile devices, either IOS or android. This is done through usability testing, to ensure this segment of the testing 
+			is successful, the testing team will need to assign users and engage them in the app and provide feedback with the results of their 
+			experience. The importance of user and major reason to use usability tests is to check the users friendliness of the solution and 
+			understand whether the application can support the businesses marketing objectives. The testing team will ensure that the results 
+			gathered and changes made are adding value to the convenience and that the user can reach their end goal with ease, it also measures 
+			if the application is up to the users expectation and that its working as it should be. On demand testing is the application's 
+			performance testing that includes response to users request, screen load up,  battery usage and optimization, size of application, 
+			laid time with concurrent users, and API functions. This also tests the tenacity of the minor to the major aspects of the application 
+			including the servers, network requirement, software and hardware compatibility. At the end of all the steps and considerations above,
+			the testing team will also test the app with an unusual amount of users to replicate a consumer demand spike and observe whether the 
+			app is still running smoothly or the opposite, where lags and bugs are presented. Finally, the most important step is the security
+			check. Due to the nature of our application, we deal with consumers' sensitive data and personal information, so this step is extremely
+			vital. This can be done through an online automated tool and also reassured by the assurance team to remove any malware, spyware or 
+			bugs that could be present within the app.
+			</p>
+			<br>
+			<h4>Stage 5: Deployment</h4>
+			<p>
+			After the minimum viable product passes the testing stage, we decided to deploy the app onto both Google play store and the App store, 
+			uploading on different platforms have different requirements, such as Google Play requiring promotional material for the application. 
+			Promotional materials include pictures and videos. Next, we have to implement configuration options and provide privacy policies. After that, 
+			we have to implement access rights and pricing. Finally, we have to continuously configure and publish the app to be stable. For iOS, the App 
+			store starts with us filling in information about the app on a provided form, including the name, page, icon, description, privacy policy and 
+			key words of the product. With the AppStore, we submit the application build via Xcode. Apple’s employees will test our products to ensure it 
+			can be made live on their platform. After that, we focus on the code after launching the MVP, and focus on other business aspects such as 
+			looking for investors and marketing our application.
+			</p>
+			<br>
+			<h4>Stage 6: Final Stage</h4>
+			<p>
+			After launching our minimum viable product as beta, we will receive feedback from users based on their experiences. From the user’s feedback, 
+			we can observe what the users are fond of and what issues they faced when using the app. From this we can improve the application by removing 
+			unnecessary features or bugs, while adding more viable features.After our minimum viable product has succeeded in gaining attention, we will 
+			need to focus on full scale marketing, to ensure our product reaches users out there. This is where our marketing team will market our products
+			to reach users on both iOS and Android platforms, by social media advertisements on Facebook, YouTube and Instagram, as millions of users 
+			interact on these platforms every day.
+			</p>
+			<br>
                 </div>
             </div>
                       
@@ -266,95 +425,10 @@
                        <section class="boxes2">
             <div class="con">
                 <div class="box2">
-                    <h3 id="iwork">Skills and Jobs</h3>
-                    <h4> Stage 1: Planning </h4>
+                    <h3 id="SandJ">Skills and Jobs</h3>
+                    <h4></h4>
                     <p>
-                    During the planning stage, we have decided to use two different platforms. Android and iOS are 
-                    structured differently from each other, therefore we decided to use two different tech stacks. Choosing
-                    our tech stacks for our mobile application is a crucial step for us. A good tech stack will help us reduce
-                    time, save cost in development, and open up opportunities for any future projects. We have decided to
-                    not use a hybrid stack, even though it will be more cost-efficient, we didn't want to give to give up 
-                    functionality and UX. Therefore, we decided to separate our tech stacks, into Android and iOS. 
-
-                    In our IOS tech stack, we have chosen Swift as our programming language over Objective-C, as it
-                    is the more preferred language over Objective-C. For our iOS development tools, we have chosen 
-                    Xcode, an IDE powered by Apple which provides features needed to develop a native iOS app.
-                    for our UI framework (for user interface), we have decided on UIkit over SwiftUI, due to the fact 
-                    that Swift UI only supports the later versions of iOS, locking out the older versions.
-
-                    In our Android tech stack, Kotlin was our choice as the programming language that will be used. 
-                    Kotlin was chosen over the ever so popular Java due to it being more simple to use, which can
-                    enable projects to be delivered faster. For our Android development tools, we have chosen Android
-                    studio, the official development platform powered by Google. For out UI frameworks, Android provides
-                    a pre-built Android UI software, however we have chosen Jetpack Compose, due to it allowing a
-                    more simplified and accelerated development. 
-
-                    Next, we had to estimate the costs for the mobile app development. Depending on app complexity,
-                    it can cost between $60,000 to $150,000 on simple app developments and more than $300,000 on 
-                    more complex app developments. In Australia, programmers earn about $100 to $120 an hour, while
-                    other countries like India have an hourly rate of $30. Since we chose to launch on two platforms and 
-                    use two different stacks instead of a higher stack, our costs will be relatively high. Therefore when 
-                    choosing our team, we kept the costs in mind, while seeing whether the pros outweigh the cons. 
-                    We decided to outsource to a development company overseas. Outsourcing is a good option as 
-                    It has many benefits, such as being cost efficient while maintaining high quality. Foreign companies 
-                    also adhere to guidelines and ensure that they stay throughout the project, unlike freelancers, and 
-                    are much cheaper than putting together a team. 
-
-                    Finally, we implemented some milestones and deadlines, to ensure that the app will be developed
-                    within the given time. We are targeting the app development to be completed in 3 months from now, 
-                    so we can proceed to other stages such as testing, deployment and eventually the marketing of 
-                    the app itself.
-
-                    </p>
-                    <h4>Stage 2: Design and Development</h4>
-                    <p>
-                    To create a better understanding of our user’s needs, we created a persona, along with a context
-                    scenario and key scenarios.
-                    Creating a persona:
-                    Jonathan Jonas
-                    Background:
-                         <li>50 years old</li>
-                         <li>Lives in Glen Waverley, Victoria</li>
-                         <li>Works as a project manager in the city</li>
-                    Needs and goals 
-                         <li>Always has to take out myki card when taking the train to work, wishes that he could 
-                             just use his phone, however he uses an apple phone which does not store myki in it’s
-	                         wallet unlike google pay on androids</li>
-                    Skills and experience
-                         <li>Familiar with iOS </li>
-                         <li>Limited driving expertise</li>
-                    Creating a context scenario:
-                    Jonathan is a 50 year old man who works in the city. Jonathan takes the train to the city during the weekdays as he does not own a car. 
-                    However, Jonathan is frustrated that he has to search through his wallet for his myki card everyday. He uses an iphone which does not 
-                    have a feature to store myki credits, unlike google pay. One day during his lunch break, Jonathan rants to his co-workers about his frustration.
-                    Jack the intern suggested to Jonathan to try out the app <insert app name>. He explains to Jonathan that the app is a mobile application that is 
-                    essentially a virtual wallet designed to be a unified hub for all forms of virtual cards, QR codes and virtual tickets. He further explains to 
-                    Jonathan that this application is designed so that all these cards and scannable codes and items can be stored in one place, as a unified “eWallet”,
-                    which can make Jonathan's  life easier and more efficient when dealing with scannable items on their phone. Jonathan sets up his <insert app name>
-                    account and puts in his credit card details. When Jonathan leaves work for home, he opens the app and taps his phone at the gate, the transaction 
-                    approves, and the gate opens, Jonathan decides that he would no longer need to bring his bulky wallet along with him when he leaves the house.
-
-                    During this stage, we focused more on UX design - the visual side of the app. We decided to keep
-                    the design of our app minimalistic and simple, as our application’s main purpose is to function as 
-                    a wallet.  We chose Dark Blue as our primary color, because it gives users a more modern feeling, 
-                    it matched the service we provide by using high end tech to make people’s life more convenient. 
-                    We chose orange as the color for most of buttons as it contrast with the dark blue, making all the
-                    buttons stand out from the User Interface therefore when the user looks at the page, it is easier for 
-                    them to recognize where the buttons are immediately. For the Menu Bar, we used the industry standard
-                    Icon “Burger Menu”, so when the users see it, they would immediately know what it used for. And all the 
-                    the size of fonts are the same, it makes the user interface more consistant.
-
-                    We then planned out the minimum viable product for our application. We made a list of features for
-                    our application. Features included:
-                        <li>Store QR codes in “My Codes”</li>
-                        <li>Add cards such as credit cards and Transport Card (MyKi)</li>
-                        <li>Scan and add QR option (take photo from camera or from library)</li>
-                        <li>Edit Profile Info</li>
-                        <li>Using Credit card to pay</li>
-                        <li>Using digital transport card like myki</li>
-                    We wanted to deliver a solution that appeals to or ideal customers, so we wanted to focus more on 
-                    implementing certain features that enable users to have the true experience of having a virtual unified 
-                    wallet.
+                    
                     </p>
                 </div>
             </div>
