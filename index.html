@@ -402,14 +402,20 @@
 			interface of the application. And the back end of the application, such as all the functions that make the application work, usually things
 			that cannot be seen by the user.
 
-			Front end
+ 			The front end of the application needs to follow some basic guidelines and protocols so the user can have the easiest time possible using the
+			app for full functionality. Following principles like Nielsen's Heuristics Principles will allow development of the user interface to be of a
+			quality and standard that should not be difficult to use..Having a cluttered and hard to read UI, especially on a mobile phone will make the 
+			core functions of the applications much more difficult, so it is important to do as much testing on the user interface as possible so that 
+			when the application is released people do not struggle using the application
 
-			The front end of our application needs to be simple and easy to use, so that users can not waste any time accessing what they need. 
-			Our application would be counterintuitive  if it would take multiple keystrokes and user inputs to access a card and other items of relevance.
-			Because of this, as soon as the application is opened the first thing the user should see are the cards they have so they can make a 
-			transaction quickly after opening the app, and also below these cards will be the scannable items such as qr codes and barcodes so that they 
-			also can be accessed quickly on the same page. Other external options not relevant for day to day use should be hidden away for less clutter 
-			through a burger box menu. Such as adding other 
+			The bulk of the functions will occur on the backend of the application. There are many functions and technologies that need to be worked on 
+			during the development stage of the application so that they can fulfill the scope of the solution. The application during the development 
+			stage needs to be able to store the data of cards securely, and be able to use the phones nfc signal to use the information of the stored card
+			to be able to interact with devices that need that signal to make a transaction. To store this information securely, there needs to be some 
+			sort of encryption in place so that the sensitive information can only be accessed and used when needed by the user and the application. 
+			There are other features like having access to the mobile phones camera and camera roll to be able to effectively use all the proposed 
+			functions of the application.
+
 			</p>
 			<br>
 				
@@ -662,6 +668,35 @@
 			<li>Camera: 12MP Wide camera</li>
 			</p>
 			<br>
+		    <h3>How much access is needed</h3>
+		    	<p>
+			The application needs access to some parts of the phone's hardware and storage to allow for it to be able to use all of the planned functions. 
+			The application needs access to the phone’s camera so that qr codes can be scanned and automatically transferred to the application to be 
+			redisplayed on the phone. Additionally the application needs to have access to the phone’s camera roll for the same reason as the camera, 
+			so that qr codes can be stored on the application. Most importantly, the application needs to access the nfc chip present in the mobile device
+			so that cards stored on the phone can actually be used, without the access to the nfc chip, the cards stored on the application are useless. 
+			Without access and permission to these parts of the phone, the application cannot function as intended or will have very limited functionality
+		    </p>
+		    <h3>Security and encryption</h3>
+		    <p>
+			For the encryption, the first encryption can be symmetric key encryption, where the key used to 
+			encrypting the data is the key that is also used to decrypt that data. An analogy to describe this is 
+			when a code is needed to open a safe, and anyone who has that code can open the safe and access
+			Its contents. A second type of encryption is public key encryption, also known as asymmetric key
+			Encryption, where the key used to encrypt data is not the same as the key that is used to decrypt that
+			data. In this algorithm, a public key is used to encrypt the data. This key can be used by any person or 
+			application and is generally well known. The data can only be decrypted using a private key, which is
+			known only to the recipient person or application.
+
+			Backups form an essential step in data management. Regular backups protect against a number of 
+			Fields, including human error, computer crashes and software faults. A full backup copies all of the files 
+			from a device to a storage medium. It can take considerable time and is usually performed once over a
+			time period(such as a week, fortnight or month).
+
+			A Firewall is one such mechanism to control incoming and outgoing network traffic. A firewall is a server 
+			and software combination that filters data entering an organization's internal network via an internet 
+			connection. Any packet of data that is marked as undesired by the filters is not allowed to pass.
+		    </p>
 			<h3 id="Test">Testing</h3>
 			<p>
 			Testings will be conducted on various elements that includes the phone compatibility, security vulnerabilities and application instabilities. 
@@ -729,6 +764,17 @@
 			simultaneously. Two different development teams will be hired for each platform, and the cost of advertisements will also increase, thus 
 			making it difficult to launch on both platforms at the same time.</li>
 			</p>
+		 	<br>
+		 	<h3>Group processes and communication</h3>
+		 	<p>
+			In assignment 2, we communicated via Microsoft teams only, and we had about five meetings in the span of 5 days to complete our project. 
+			In this assignment, we started our work earlier, and we used both microsoft teams and Instagram to communicate with one another, as Instagram 
+			was an app that we all used. We did meetings quite frequently whenever we felt like something needed to be discussed, or changes were needed 
+			to be made. We often asked questions and provided updates in our Instagram group chat, and everyone was keen on participating in every meeting
+			and responded to each other constantly in the group chat. We didn't set any soft deadlines or how often we should call our meetings, as some 
+			of us might be busy on certain days. Sometimes when somebody is busy, we make sure to relay information to the person who was unable to make
+			it to the meeting via Instagram.
+		 	</p>
                 </div>
             </div>
                       
@@ -837,6 +883,23 @@
             <div class="con">
                 <div class="box4">
 			<h3 id="gr">Group reflection</h3>
+			<p>
+			Based on our perspectives, what went well is that we were able to make major improvements compared to our previous assignment, we did a lot of
+			brainstorming and planning, therefore towards the final week. We were all on the right track to getting work done, constantly tried to improve
+			each other's work, and were always adding features and ideas to our project. We communicated very well compared to last time. Although the 
+			amount of work before the last week of the assignment was due is concerning, as only 50 percent of the report was completed but towards the 
+			final week, we are able to put our heads down and have done 80 percent of the report by early week 12 and with constant meeting we are able to
+			get the artifact done and completed the report by the due date. One thing surprising is that we are able to produce a decent report and 
+			get the work done because we had lots of meetings throughout the weeks, and in a matter of a few weeks we are able to produce a pretty good
+			report and have created a prototype that we are able to put on the website. One thing that we have learnt about our group is that if we all
+			put our heads down and actually do the work, we are capable of writing an even better report. We understood each other’s strengths and 
+			weaknesses which aided in the work distribution.  We essentially wrote up all the theory part of the assignment and had members in the group 
+			copy and paste that content into the website, then we applied the format from assignment 2 to this website. However this group project was not
+			without faults. Although this group was mostly willing to do work without complaining, the pace of each group member was different, with 
+			some members struggling to complete their parts in time. Something that we can improve on is perhaps better time management. Other issues 
+			included quality of work produced. Some of the work seemed rushed, done with barely any effort. Most of the group members were willing to 
+			do slightly more work without any complaints, which was surprising and refreshing to see.
+			</p>
 			<p>
 			
 			</p>
